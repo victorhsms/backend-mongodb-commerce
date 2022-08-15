@@ -1,0 +1,1 @@
+db.produtos.countDocuments({ nome: /mc/i }, { _id: false, nome: true });
